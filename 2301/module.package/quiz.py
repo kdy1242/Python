@@ -39,6 +39,12 @@ print(list_class)
 while True:
     # 나간 친구 번호 묻자
     exclude_number = input("뺄 번호는?(그냥 enter 치면 끝내자)")
+    if exclude_number == "":
+        break
     # 리스트에서 빼자
     list_class.remove(int(exclude_number))
-    print(list_class)
+    random.shuffle(list_class)
+    # print(list_class)
+    print('자리\t학생번호')
+    for index, n in enumerate(list_class):
+        print(f'{index+1}\t{n}')
