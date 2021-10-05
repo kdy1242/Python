@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="837eafec-2fee-460f-946d-f8c3df83da6c" name="Default Changelist" comment="file list">
-      <change beforePath="$PROJECT_DIR$/2301/file handler/load_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/2301/file handler/load_text.py" afterDir="false" />
+    <list default="true" id="837eafec-2fee-460f-946d-f8c3df83da6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2301/file handler/my_favorite_music.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2301/file handler/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2301/file handler/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/2301" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -55,7 +57,7 @@
       <recent name="E:\Python\0326" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.load_text">
+  <component name="RunManager" selected="Python.my_favorite_music">
     <configuration name="baseball" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,28 +72,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2301/module.package/baseball.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="baseball_game_engine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2301/module.package" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2301/module.package/baseball_game_engine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,6 +146,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="my_favorite_music" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2301/file handler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2301/file handler/my_favorite_music.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="save_text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.my_favorite_music" />
+        <item itemvalue="Python.save_text" />
         <item itemvalue="Python.load_text" />
         <item itemvalue="Python.file_list" />
-        <item itemvalue="Python.save_text" />
         <item itemvalue="Python.baseball" />
-        <item itemvalue="Python.baseball_game_engine" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +256,7 @@
       <workItem from="1632390653446" duration="118000" />
       <workItem from="1632440511819" duration="3570000" />
       <workItem from="1633047523543" duration="3802000" />
-      <workItem from="1633398667444" duration="1802000" />
+      <workItem from="1633398667444" duration="3692000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1629775218491</created>
@@ -375,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633399601392</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="load text, read(), readline(), readlines()">
+      <created>1633400835821</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1633400835821</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +419,8 @@
     <MESSAGE value="file list 상대경로, 절대경로" />
     <MESSAGE value="load text" />
     <MESSAGE value="file list" />
-    <option name="LAST_COMMIT_MESSAGE" value="file list" />
+    <MESSAGE value="load text, read(), readline(), readlines()" />
+    <option name="LAST_COMMIT_MESSAGE" value="load text, read(), readline(), readlines()" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$practice_class.coverage" NAME="practice_class Coverage Results" MODIFIED="1619999985670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0325" />
@@ -419,7 +429,8 @@
     <SUITE FILE_PATH="coverage/Python$2301_quiz__1_.coverage" NAME="2301_quiz (1) Coverage Results" MODIFIED="1620097096855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0325" />
     <SUITE FILE_PATH="coverage/Python$practice.coverage" NAME="practice Coverage Results" MODIFIED="1616598400709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/Python$2301_practice.coverage" NAME="2301_practice Coverage Results" MODIFIED="1630024342836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/nadocoding" />
-    <SUITE FILE_PATH="coverage/Python$load_text.coverage" NAME="load_text Coverage Results" MODIFIED="1633400610095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
+    <SUITE FILE_PATH="coverage/Python$my_favorite_music.coverage" NAME="my_favorite_music Coverage Results" MODIFIED="1633402709066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
+    <SUITE FILE_PATH="coverage/Python$load_text.coverage" NAME="load_text Coverage Results" MODIFIED="1633401353781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
     <SUITE FILE_PATH="coverage/Python$file_list.coverage" NAME="file_list Coverage Results" MODIFIED="1633399833997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
     <SUITE FILE_PATH="coverage/Python$do.coverage" NAME="do Coverage Results" MODIFIED="1630375032432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
     <SUITE FILE_PATH="coverage/Python$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1616591530617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -428,7 +439,7 @@
     <SUITE FILE_PATH="coverage/Python$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1629642574282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/모두의영화" />
     <SUITE FILE_PATH="coverage/Python$2301_practice__1_.coverage" NAME="2301_practice (1) Coverage Results" MODIFIED="1619999361857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0325" />
     <SUITE FILE_PATH="coverage/Python$baseball_game_engine.coverage" NAME="baseball_game_engine Coverage Results" MODIFIED="1631236738977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
-    <SUITE FILE_PATH="coverage/Python$save_text.coverage" NAME="save_text Coverage Results" MODIFIED="1633049881998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
+    <SUITE FILE_PATH="coverage/Python$save_text.coverage" NAME="save_text Coverage Results" MODIFIED="1633401358741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
     <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main Coverage Results" MODIFIED="1615257581478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$quiz.coverage" NAME="quiz Coverage Results" MODIFIED="1631234217563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
     <SUITE FILE_PATH="coverage/Python$amasvin.coverage" NAME="amasvin Coverage Results" MODIFIED="1621562689679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/amasvin" />
