@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="837eafec-2fee-460f-946d-f8c3df83da6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/2301/module.package/baseball.py" beforeDir="false" afterPath="$PROJECT_DIR$/2301/module.package/baseball.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2301/tictactoe/tictactoe_console.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2301/tictactoe/tictactoe_game_engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
       <recent name="E:\Python\0326" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.baseball">
+  <component name="RunManager" selected="Python.tictactoe_game_engine">
     <configuration name="baseball" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,28 +146,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="save_binary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2301/file handler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2301/file handler/save_binary.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="save_object" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,13 +168,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tictactoe_game_engine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2301/tictactoe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2301/tictactoe/tictactoe_game_engine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tictactoe_game_engine" />
         <item itemvalue="Python.baseball" />
         <item itemvalue="Python.save_object" />
         <item itemvalue="Python.load_object" />
         <item itemvalue="Python.load_binary" />
-        <item itemvalue="Python.save_binary" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +258,8 @@
       <workItem from="1633047523543" duration="3802000" />
       <workItem from="1633398667444" duration="6083000" />
       <workItem from="1633649799647" duration="2739000" />
-      <workItem from="1634254546378" duration="4131000" />
+      <workItem from="1634254546378" duration="4461000" />
+      <workItem from="1634861590460" duration="3559000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1629775218491</created>
@@ -419,7 +422,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634260293111</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="top 3 중복제거">
+      <created>1634260436357</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1634260436357</updated>
+    </task>
+    <task id="LOCAL-00025" summary="FileNotFoundError 처리">
+      <created>1634260620491</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1634260620491</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +477,9 @@
     <MESSAGE value="load binary filesize" />
     <MESSAGE value="Person, save_object, load_object" />
     <MESSAGE value="top 3, save_history, load_history" />
-    <option name="LAST_COMMIT_MESSAGE" value="top 3, save_history, load_history" />
+    <MESSAGE value="top 3 중복제거" />
+    <MESSAGE value="FileNotFoundError 처리" />
+    <option name="LAST_COMMIT_MESSAGE" value="FileNotFoundError 처리" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$practice_class.coverage" NAME="practice_class Coverage Results" MODIFIED="1619999985670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0325" />
@@ -484,12 +503,13 @@
     <SUITE FILE_PATH="coverage/Python$amasvin.coverage" NAME="amasvin Coverage Results" MODIFIED="1621562689679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/amasvin" />
     <SUITE FILE_PATH="coverage/Python$Entertainer.coverage" NAME="Entertainer Coverage Results" MODIFIED="1620097676983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
     <SUITE FILE_PATH="coverage/Python$baskinrobbins.coverage" NAME="baskinrobbins Coverage Results" MODIFIED="1620350106113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
+    <SUITE FILE_PATH="coverage/Python$tictactoe_game_engine.coverage" NAME="tictactoe_game_engine Coverage Results" MODIFIED="1634864306104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/tictactoe" />
     <SUITE FILE_PATH="coverage/Python$2301_practice.coverage" NAME="2301_practice Coverage Results" MODIFIED="1630024342836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/nadocoding" />
     <SUITE FILE_PATH="coverage/Python$load_text.coverage" NAME="load_text Coverage Results" MODIFIED="1633401353781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
     <SUITE FILE_PATH="coverage/Python$do.coverage" NAME="do Coverage Results" MODIFIED="1630375032432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
     <SUITE FILE_PATH="coverage/Python$save_object.coverage" NAME="save_object Coverage Results" MODIFIED="1634258544223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
     <SUITE FILE_PATH="coverage/Python$recipe.coverage" NAME="recipe Coverage Results" MODIFIED="1621563197951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/homechef" />
-    <SUITE FILE_PATH="coverage/Python$baseball.coverage" NAME="baseball Coverage Results" MODIFIED="1634260239678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
+    <SUITE FILE_PATH="coverage/Python$baseball.coverage" NAME="baseball Coverage Results" MODIFIED="1634864151964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
     <SUITE FILE_PATH="coverage/Python$save_binary.coverage" NAME="save_binary Coverage Results" MODIFIED="1633403681273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
   </component>
 </project>
