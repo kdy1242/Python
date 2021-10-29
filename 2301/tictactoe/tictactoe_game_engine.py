@@ -13,19 +13,38 @@ class TictactoeGameEngine:
     def set(self, row, col):
         self.board[self.SIZE*(row-1) + (col-1)] = self.turn
 
+    def position_to_index(self, row, col):
+        return self.SIZE * (row - 1) + (col - 1)
+
     def set_winner(self):
         # - 3줄
+        for row in range(1, 3+1):   # row 1~3 반복
+            if self.board[self.position_to_index(row, 1)] \
+                    == self.board[self.position_to_index(row, 2)] \
+                    == self.board[self.position_to_index(row, 3)] \
+                    == self.turn:   # '.'일때 끝나지 않게 하자
+                return self.turn
         # | 3줄
+        for col in range(1, 3+1):   # col 1~3 반복
+            if self.board[self.position_to_index(col, 1)] \
+                    == self.board[self.position_to_index(col, 2)] \
+                    == self.board[self.position_to_index(col, 3)] \
+                    == self.turn:   # '.'일때 끝나지 않게 하자
+                return self.turn
         # \
+        if self.board[self.position_to_index(1, 1)] \
+                == self.board[self.position_to_index(2, 2)] \
+                == self.board[self.position_to_index(3, 3)] \
+                == self.turn:
+            return self.turn
         # /
-
+        if self.board[self.position_to_index(1, 3)]  \
+                == self.board[self.position_to_index(2, 2)] \
+                == self.board[self.position_to_index(3, 1)]:
+            return '/'
         # 비기는 조건: 다 채워졌을때 위의것에 해당안됐을때: self.board 에 '.'이 없는 상테
-
-        if len(player_turn['X']) + len(player_turn['O']) == 9:
-            return 'd'
-        return False
-
-
+        if not '.' in self.board:       # self.board 안에 '.'이 없다면
+            return 'd'  # draw
 
     def change_turn(self):
         # self.turn 'X'면 'O'로, 'O'면 'X'로 바꾸자
@@ -42,3 +61,8 @@ if __name__ == '__main__':
     print(game_engine.set_winner())     # 'X'
     game_engine.change_turn()
     print(game_engine.turn)      # 'O'
+
+    game_engine.set(1, 3)
+    game_engine.set(2, 2)
+    game_engine.set(3, 1)
+    print(game_engine.set_winner())

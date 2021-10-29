@@ -262,7 +262,7 @@
       <workItem from="1634912073052" duration="91000" />
       <workItem from="1635465267778" duration="225000" />
       <workItem from="1635465562035" duration="446000" />
-      <workItem from="1635466373813" duration="2145000" />
+      <workItem from="1635466373813" duration="4043000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1629775218491</created>
@@ -446,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634912112639</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="tictactoe game engine show_board, change_turn, set">
+      <created>1635468556297</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1635468556297</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +472,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
     <MESSAGE value="module" />
     <MESSAGE value="package" />
     <MESSAGE value="package 2" />
@@ -490,7 +496,8 @@
     <MESSAGE value="top 3 중복제거" />
     <MESSAGE value="FileNotFoundError 처리" />
     <MESSAGE value="tictactoe game engine" />
-    <option name="LAST_COMMIT_MESSAGE" value="tictactoe game engine" />
+    <MESSAGE value="tictactoe game engine show_board, change_turn, set" />
+    <option name="LAST_COMMIT_MESSAGE" value="tictactoe game engine show_board, change_turn, set" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$tictactoe_game_engine.coverage" NAME="tictactoe_game_engine Coverage Results" MODIFIED="1634864306104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/tictactoe" />
