@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="837eafec-2fee-460f-946d-f8c3df83da6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2301/tictactoe/tictactoe_console.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2301/tictactoe/tictactoe_game_engine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2301/tictactoe/tictactoe_game_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/2301/tictactoe/tictactoe_game_engine.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2301" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
@@ -260,6 +259,10 @@
       <workItem from="1633649799647" duration="2739000" />
       <workItem from="1634254546378" duration="4461000" />
       <workItem from="1634861590460" duration="3559000" />
+      <workItem from="1634912073052" duration="91000" />
+      <workItem from="1635465267778" duration="225000" />
+      <workItem from="1635465562035" duration="446000" />
+      <workItem from="1635466373813" duration="2145000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1629775218491</created>
@@ -436,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634260620491</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="tictactoe game engine">
+      <created>1634912112639</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1634912112639</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,37 +489,38 @@
     <MESSAGE value="top 3, save_history, load_history" />
     <MESSAGE value="top 3 중복제거" />
     <MESSAGE value="FileNotFoundError 처리" />
-    <option name="LAST_COMMIT_MESSAGE" value="FileNotFoundError 처리" />
+    <MESSAGE value="tictactoe game engine" />
+    <option name="LAST_COMMIT_MESSAGE" value="tictactoe game engine" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$tictactoe_game_engine.coverage" NAME="tictactoe_game_engine Coverage Results" MODIFIED="1634864306104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/tictactoe" />
+    <SUITE FILE_PATH="coverage/Python$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1629642574282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/모두의영화" />
+    <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main Coverage Results" MODIFIED="1615257581478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$load_binary.coverage" NAME="load_binary Coverage Results" MODIFIED="1633404314610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
+    <SUITE FILE_PATH="coverage/Python$baseball_game_engine.coverage" NAME="baseball_game_engine Coverage Results" MODIFIED="1631236738977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
+    <SUITE FILE_PATH="coverage/Python$quiz.coverage" NAME="quiz Coverage Results" MODIFIED="1631234217563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
+    <SUITE FILE_PATH="coverage/Python$2301_quiz__1_.coverage" NAME="2301_quiz (1) Coverage Results" MODIFIED="1620097096855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0325" />
+    <SUITE FILE_PATH="coverage/Python$baseball.coverage" NAME="baseball Coverage Results" MODIFIED="1634864151964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
+    <SUITE FILE_PATH="coverage/Python$Entertainer.coverage" NAME="Entertainer Coverage Results" MODIFIED="1620097676983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
+    <SUITE FILE_PATH="coverage/Python$load_object.coverage" NAME="load_object Coverage Results" MODIFIED="1633651601665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
+    <SUITE FILE_PATH="coverage/Python$f_string.coverage" NAME="f-string Coverage Results" MODIFIED="1616721370638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$baskinrobbins.coverage" NAME="baskinrobbins Coverage Results" MODIFIED="1620350106113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
+    <SUITE FILE_PATH="coverage/Python$2301_practice.coverage" NAME="2301_practice Coverage Results" MODIFIED="1630024342836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/nadocoding" />
     <SUITE FILE_PATH="coverage/Python$practice_class.coverage" NAME="practice_class Coverage Results" MODIFIED="1619999985670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0325" />
     <SUITE FILE_PATH="coverage/Python$run_internal.coverage" NAME="run_internal Coverage Results" MODIFIED="1630376258820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
-    <SUITE FILE_PATH="coverage/Python$f_string.coverage" NAME="f-string Coverage Results" MODIFIED="1616721370638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python$2301_quiz__1_.coverage" NAME="2301_quiz (1) Coverage Results" MODIFIED="1620097096855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0325" />
-    <SUITE FILE_PATH="coverage/Python$practice.coverage" NAME="practice Coverage Results" MODIFIED="1616598400709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
-    <SUITE FILE_PATH="coverage/Python$my_favorite_music.coverage" NAME="my_favorite_music Coverage Results" MODIFIED="1633403675121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
-    <SUITE FILE_PATH="coverage/Python$file_list.coverage" NAME="file_list Coverage Results" MODIFIED="1633399833997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
-    <SUITE FILE_PATH="coverage/Python$load_binary.coverage" NAME="load_binary Coverage Results" MODIFIED="1633404314610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
-    <SUITE FILE_PATH="coverage/Python$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1616591530617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$2301_quiz.coverage" NAME="2301_quiz Coverage Results" MODIFIED="1616717346974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1623977178528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/homechef" />
-    <SUITE FILE_PATH="coverage/Python$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1629642574282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/모두의영화" />
-    <SUITE FILE_PATH="coverage/Python$load_object.coverage" NAME="load_object Coverage Results" MODIFIED="1633651601665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
-    <SUITE FILE_PATH="coverage/Python$2301_practice__1_.coverage" NAME="2301_practice (1) Coverage Results" MODIFIED="1619999361857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0325" />
-    <SUITE FILE_PATH="coverage/Python$baseball_game_engine.coverage" NAME="baseball_game_engine Coverage Results" MODIFIED="1631236738977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
-    <SUITE FILE_PATH="coverage/Python$save_text.coverage" NAME="save_text Coverage Results" MODIFIED="1633401358741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
-    <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main Coverage Results" MODIFIED="1615257581478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python$quiz.coverage" NAME="quiz Coverage Results" MODIFIED="1631234217563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
-    <SUITE FILE_PATH="coverage/Python$amasvin.coverage" NAME="amasvin Coverage Results" MODIFIED="1621562689679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/amasvin" />
-    <SUITE FILE_PATH="coverage/Python$Entertainer.coverage" NAME="Entertainer Coverage Results" MODIFIED="1620097676983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
-    <SUITE FILE_PATH="coverage/Python$baskinrobbins.coverage" NAME="baskinrobbins Coverage Results" MODIFIED="1620350106113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
-    <SUITE FILE_PATH="coverage/Python$tictactoe_game_engine.coverage" NAME="tictactoe_game_engine Coverage Results" MODIFIED="1634864306104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/tictactoe" />
-    <SUITE FILE_PATH="coverage/Python$2301_practice.coverage" NAME="2301_practice Coverage Results" MODIFIED="1630024342836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/nadocoding" />
-    <SUITE FILE_PATH="coverage/Python$load_text.coverage" NAME="load_text Coverage Results" MODIFIED="1633401353781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
-    <SUITE FILE_PATH="coverage/Python$do.coverage" NAME="do Coverage Results" MODIFIED="1630375032432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
     <SUITE FILE_PATH="coverage/Python$save_object.coverage" NAME="save_object Coverage Results" MODIFIED="1634258544223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
-    <SUITE FILE_PATH="coverage/Python$recipe.coverage" NAME="recipe Coverage Results" MODIFIED="1621563197951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/homechef" />
-    <SUITE FILE_PATH="coverage/Python$baseball.coverage" NAME="baseball Coverage Results" MODIFIED="1634864151964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
+    <SUITE FILE_PATH="coverage/Python$2301_practice__1_.coverage" NAME="2301_practice (1) Coverage Results" MODIFIED="1619999361857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0325" />
+    <SUITE FILE_PATH="coverage/Python$save_text.coverage" NAME="save_text Coverage Results" MODIFIED="1633401358741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
     <SUITE FILE_PATH="coverage/Python$save_binary.coverage" NAME="save_binary Coverage Results" MODIFIED="1633403681273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
+    <SUITE FILE_PATH="coverage/Python$load_text.coverage" NAME="load_text Coverage Results" MODIFIED="1633401353781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
+    <SUITE FILE_PATH="coverage/Python$practice.coverage" NAME="practice Coverage Results" MODIFIED="1616598400709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Python$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1616591530617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$do.coverage" NAME="do Coverage Results" MODIFIED="1630375032432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/module.package" />
+    <SUITE FILE_PATH="coverage/Python$amasvin.coverage" NAME="amasvin Coverage Results" MODIFIED="1621562689679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/amasvin" />
+    <SUITE FILE_PATH="coverage/Python$recipe.coverage" NAME="recipe Coverage Results" MODIFIED="1621563197951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/homechef" />
+    <SUITE FILE_PATH="coverage/Python$file_list.coverage" NAME="file_list Coverage Results" MODIFIED="1633399833997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
+    <SUITE FILE_PATH="coverage/Python$my_favorite_music.coverage" NAME="my_favorite_music Coverage Results" MODIFIED="1633403675121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/file handler" />
+    <SUITE FILE_PATH="coverage/Python$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1623977178528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2301/homechef" />
   </component>
 </project>
